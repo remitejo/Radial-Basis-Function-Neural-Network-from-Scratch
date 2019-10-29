@@ -1,4 +1,4 @@
-<h1> <center> Neural Assignment </center> </h1>
+<h1> <center> Radial Basis Function Neural Network from Scratch </center> </h1>
 Goal: Data classification <br/>
 Using: Self Organizing Map and SOM's vectors in a Radial Basis Function Neural Network <br/> 
 Author: BOUKHELOUA Rémi Tej
