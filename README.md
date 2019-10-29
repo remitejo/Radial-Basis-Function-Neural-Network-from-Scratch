@@ -4,19 +4,6 @@ Using: Self Organizing Map and SOM's vectors in a Radial Basis Function Neural N
 Author: BOUKHELOUA Rémi Tej
 
 
-```python
-#Code I used to transform the data from matlab format to csv one, so I don't need to do it every time
-
-# import scipy.io
-# import numpy as np
-
-# dataX = scipy.io.loadmat(r"data_train.mat")
-# np.savetxt("data_train.csv", np.asarray(dataX["data_train"]), delimiter=",")
-# dataY = scipy.io.loadmat(r"label_train.mat")
-# np.savetxt("label_train.csv", np.asarray(dataY["label_train"]), delimiter=",")
-# dataToPredictX = scipy.io.loadmat(r"data_test.mat")
-# np.savetxt("data_test.csv", np.asarray(dataToPredictX["data_test"]), delimiter=",")
-```
 
 ### Imports
 
@@ -1011,3 +998,19 @@ with open("prediction.csv", 'w', newline='') as file:
  - Bottom up/Top down ?
      - Train bigger SOM?
      - Building up to optimal one?
+     
+## From .mat to .csv
+
+```python
+#Code I used to transform the data from matlab format to csv one, so I don't need to do it every time
+
+# import scipy.io
+# import numpy as np
+
+# dataX = scipy.io.loadmat(r"data_train.mat")
+# np.savetxt("data_train.csv", np.asarray(dataX["data_train"]), delimiter=",")
+# dataY = scipy.io.loadmat(r"label_train.mat")
+# np.savetxt("label_train.csv", np.asarray(dataY["label_train"]), delimiter=",")
+# dataToPredictX = scipy.io.loadmat(r"data_test.mat")
+# np.savetxt("data_test.csv", np.asarray(dataToPredictX["data_test"]), delimiter=",")
+```
